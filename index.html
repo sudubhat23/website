@@ -5,6 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sudarshan Bhat | Portfolio</title>
   <style>
+    /* ✅ Mobile Responsive Fix */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 100px 20px 50px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 200px;  /* ✅ smaller on mobile */
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section {
+    padding: 30px 15px;
+  }
+
+  .section h3 {
+    font-size: 22px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
     /* General Styling */
     body {
       font-family: Arial, sans-serif;
@@ -148,6 +194,7 @@
       from {transform: scale(0.5); opacity: 0;}
       to {transform: scale(1); opacity: 1;}
     }
+    
   </style>
 </head>
 <body>
